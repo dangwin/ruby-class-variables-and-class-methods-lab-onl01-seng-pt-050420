@@ -8,7 +8,7 @@ class Song
   
   
   
-  def intitialize(the_songs_name, artist, genre)
+  def initialize(the_songs_name, artist, genre)
     @name= the_songs_name
     @artist = artist 
     @genre = genre 
