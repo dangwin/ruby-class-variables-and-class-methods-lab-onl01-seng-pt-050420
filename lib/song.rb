@@ -4,7 +4,8 @@ class Song
   
   @@count = 0 
   
-  def intitialize new_song=("song", "artist", "genre")
+  def intitialize new_song=(song)
+    @new_song = @song 
   end 
   
 end 
